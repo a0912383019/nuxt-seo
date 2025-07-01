@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   pages: true,
   ssr: true, // 預設開啟 SSR，適合 SEO
   nitro: {
-    preset: 'static'
+    preset: 'netlify'
   },
   modules: ['@nuxt/ui', '@pinia/nuxt', '@nuxt/icon'],
   css: ['~/assets/css/main.css'],
