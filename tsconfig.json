@@ -1,0 +1,13 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "paths": {
+      "#build/ui": ["./node_modules/@nuxt/ui/.nuxt/ui"]
+    }
+  },
+  "extends": "./.nuxt/tsconfig.json"
+}
