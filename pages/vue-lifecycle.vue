@@ -6,13 +6,13 @@ useSeoMeta({
   ogTitle: 'Vue 3 生命週期對照與實作技巧',
   ogDescription:
     '學會 Vue 3 生命週期 Hook、watch vs watchEffect、v-model 雙向綁定原理與 ref/reactive 差異，強化你的 Composition API 開發能力。',
-  ogImage: '/og-vue-lifecycle.png',
-  ogUrl: 'https://your-site.com/vue-lifecycle',
+  ogImage: 'https://vuefdseo.com/public/og-vue-lifecycle.png',
+  ogUrl: 'https://vuefdseo.com/vue-lifecycle',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Vue 3 生命週期完整教學｜搭配 Composition API 實作與觀念釐清',
   twitterDescription:
     '深入理解 Vue 3 的 setup、onMounted、onUpdated 等 Hook 差異與應用場景，包含 v-model 雙向綁定、watchEffect 與錯誤處理等實用技巧。',
-  twitterImage: '/og-vue-lifecycle.png',
+  twitterImage: 'https://vuefdseo.com/public/og-vue-lifecycle.png',
   keywords:
     'Vue 3, Vue 生命週期, Composition API, onMounted, onUpdated, watchEffect, v-model 原理, ref vs reactive, Vue 面試, Vue 雙向綁定, Vue Hooks 對照, Vue 教學'
 })

@@ -12,9 +12,9 @@ useSeoMeta({
   ogDescription:
     '深入剖析 Flexbox 與 Grid 的排版概念、常用屬性與 RWD 技巧。一篇搞懂一維與二維佈局差異，提升你的網頁佈局能力。',
   // Open Graph 圖片：社群分享時顯示的預覽圖，請確保圖片存在且路徑正確
-  ogImage: 'https://your-site.com/images/og-css-grid-flex.png', // **建議使用絕對路徑，並確保圖片是 1.91:1 比例，例如 1200x630**
+  ogImage: 'https://vuefdseo.com/public/og-css-grid-flex.png', // **建議使用絕對路徑，並確保圖片是 1.91:1 比例，例如 1200x630**
   // Open Graph URL：社群分享時的網頁連結，請替換為此頁面的實際 URL
-  ogUrl: 'https://your-site.com/css-flex', // **重要：替換成你網站這個頁面的實際 URL**
+  ogUrl: 'https://vuefdseo.com/css-flex', // **重要：替換成你網站這個頁面的實際 URL**
 
   // Twitter Card 類型：推薦 'summary_large_image'，圖片會更大
   twitterCard: 'summary_large_image',
@@ -24,7 +24,7 @@ useSeoMeta({
   twitterDescription:
     '詳細解說 Flexbox 與 Grid 的核心屬性與應用場景，助你輕鬆實現複雜的響應式網頁佈局。',
   // Twitter 圖片：同 ogImage
-  twitterImage: 'https://your-site.com/images/og-css-grid-flex.png', // **同上，建議使用絕對路徑**
+  twitterImage: 'https://vuefdseo.com/public/og-css-grid-flex.png', // **同上，建議使用絕對路徑**
 
   // 關鍵字：幫助搜尋引擎理解頁面主題，但不直接影響排名，應自然包含於內容中
   keywords:

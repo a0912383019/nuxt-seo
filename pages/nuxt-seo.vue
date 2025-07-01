@@ -5,12 +5,12 @@ useSeoMeta({
     '了解 Nuxt 如何強化 Vue SEO 能力，掌握 SSR、SSG、CSR、ISR 等渲染策略，選擇適合專案的最佳方案。',
   ogTitle: 'Nuxt 與 SEO 最佳實踐',
   ogDescription: 'SSR、CSR、SSG、ISR、PPR 差異比較，選擇最適合你的 Vue 項目渲染模式。',
-  ogImage: '/og-nuxt-seo.png',
-  ogUrl: 'https://your-site.com/nuxt-seo',
+  ogImage: 'https://vuefdseo.com/public/og-nuxt-seo.png',
+  ogUrl: 'https://vuefdseo.com/nuxt-seo',
   twitterCard: 'summary_large_image',
   twitterTitle: 'SEO 與 Nuxt 最佳實踐',
   twitterDescription: 'SSR、CSR、SSG、ISR、PPR 差異比較，選擇最適合你的 Vue 項目渲染模式。',
-  twitterImage: '/og-nuxt-seo.png',
+  twitterImage: 'https://vuefdseo.com/public/og-nuxt-seo.png',
   keywords: 'Nuxt, Vue SEO, SSR, CSR, SSG, ISR, PPR, SEO 最佳化, 渲染方式'
 })
 </script>

@@ -6,13 +6,13 @@ useSeoMeta({
   ogTitle: 'TypeScript 泛型與條件型別應用',
   ogDescription:
     '掌握 TypeScript Generics 和 Conditional Types，包含泛型函式、型別約束、Partial、Pick、Omit、Record 等工具型別，並了解 infer 關鍵字在型別推斷的妙用。',
-  ogImage: '/og-ts-generics.png',
-  ogUrl: 'https://your-site.com/typescript-generics',
+  ogImage: 'https://vuefdseo.com/public/og-ts-generics.png',
+  ogUrl: 'https://vuefdseo.com/typescript-generics',
   twitterCard: 'summary_large_image',
   twitterTitle: 'TypeScript 泛型與條件型別：深度解析',
   twitterDescription:
     '一份全面的 TypeScript 泛型和條件型別指南，從基本語法到進階工具型別（Partial, Pick, Omit, Record）和 infer 關鍵字，助你寫出更強健的 TypeScript 程式碼。',
-  twitterImage: '/og-ts-generics.png',
+  twitterImage: 'https://vuefdseo.com/public/og-ts-generics.png',
   keywords:
     'TypeScript, 泛型, Generics, 條件型別, Conditional Types, infer, 型別推斷, extends, keyof, Partial, Pick, Omit, Record, Required, Readonly, TS 工具型別, JavaScript 型別安全'
 })
