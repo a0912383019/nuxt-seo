@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useSeoMeta({
   // 頁面標題：精確描述頁面內容，包含主關鍵字，結尾可帶網站名。建議不超過 60-70 字元。
-  title: 'ES6+ 語法與 JavaScript 設計模式 | 前端學習資源地圖',
+  title: 'ES6+ 語法與 JavaScript 設計模式 | 前端學習筆記',
 
   // 頁面描述：簡潔說明頁面內容，包含關鍵字，吸引使用者點擊。建議 120-158 字元。
   description:

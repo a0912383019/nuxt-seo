@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'ES6+ 語法與設計模式｜前端學習資源地圖',
+  title: 'ES6+ 語法與設計模式｜前端學習筆記',
   description: '學習 ES6+ 語法改寫技巧與常見設計模式應用，強化 JavaScript 現代開發能力。',
   ogTitle: 'ES6+ 語法與設計模式',
   ogDescription: '快速掌握 let、箭頭函式、模組化與 async/await 等現代 JS 技巧。',

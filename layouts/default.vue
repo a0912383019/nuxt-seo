@@ -15,7 +15,19 @@
   <Footer></Footer>
 </template>
 <script setup>
-import { ref } from 'vue'
+const router = useRouter()
 
 const isSidebarOpen = ref(false)
+
+onMounted(() => {
+  // 添加 router.afterEach 守衛
+  const unsubscribe = router.afterEach(() => {
+    isSidebarOpen.value = false
+  })
+
+  // 在組件卸載時移除守衛，防止記憶體洩漏
+  onUnmounted(() => {
+    unsubscribe()
+  })
+})
 </script>

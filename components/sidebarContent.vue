@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
-
 const route = useRoute()
 
 // 判斷連結是否是當前活躍的路由
@@ -10,11 +8,10 @@ const isActiveLink = (path: string) => {
   return route.path === path || route.path.startsWith(path + '/')
 }
 </script>
-
 <template>
   <nav class="flex flex-col gap-4 mt-8 text-sm md:text-base">
     <div class="border-l-4 border-orange-500 pl-4 py-2">
-      <NuxtLink to="/" class="font-bold text-lg !text-orange-600">前端工程師概念強化</NuxtLink>
+      <NuxtLink to="/" class="font-bold text-lg !text-orange-600">前端工程師學習筆記</NuxtLink>
     </div>
 
     <div>

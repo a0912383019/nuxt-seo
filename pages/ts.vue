@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'TypeScript 泛型與條件型別｜前端學習資源地圖',
+  title: 'TypeScript 泛型與條件型別｜前端學習筆記',
   description:
     '深入學習 TypeScript 泛型（Generics）與條件型別（Conditional Types）的應用，透過範例掌握型別約束、工具型別與 infer 推斷，提升程式碼彈性與型別安全性。',
   ogTitle: 'TypeScript 泛型與條件型別應用',

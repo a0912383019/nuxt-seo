@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Nuxt 與 SEO 最佳實踐｜前端學習資源地圖',
+  title: 'Nuxt 與 SEO 最佳實踐｜前端學習筆記',
   description:
     '了解 Nuxt 如何強化 Vue SEO 能力，掌握 SSR、SSG、CSR、ISR 等渲染策略，選擇適合專案的最佳方案。',
   ogTitle: 'Nuxt 與 SEO 最佳實踐',

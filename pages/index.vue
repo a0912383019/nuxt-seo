@@ -1,17 +1,17 @@
 <script setup lang="ts">
 useSeoMeta({
   // 頁面標題：最重要的 SEO 元素，精確描述首頁內容，包含主關鍵字和品牌名。建議不超過 60 字元。
-  title: '前端學習資源地圖 | 概念強化與實踐指南',
+  title: '前端學習筆記 | 概念強化與實踐指南',
 
   // 頁面描述：對搜尋引擎和使用者來說很重要，簡潔說明網站提供什麼價值。建議 120-158 字元。
   description:
     '專為前端開發者打造的學習資源地圖，涵蓋 Vue 3、Nuxt、HTML 語意化、CSS Grid/Flex、TypeScript 等核心概念，透過實戰解決常見問題，助力技能提升。',
 
   // Open Graph 標題：用於社群分享時顯示的標題，通常更具吸引力。
-  ogTitle: '前端學習資源地圖：從概念到實踐的完整指南',
+  ogTitle: '前端學習筆記：從概念到實踐的完整指南',
   // Open Graph 描述：用於社群分享時顯示的描述，比 description 略短或更精煉。
   ogDescription:
-    '探索前端開發的關鍵概念與最佳實踐！涵蓋 RWD、SEO、Vue 3、Nuxt、TypeScript 等主題，提供清晰筆記與實作經驗分享。',
+    '探索前端開發的關鍵概念與最佳實踐！涵蓋 RWD、SEO、Vue 3、Nuxt、TypeScript 等主題，提供清晰筆記經驗分享。',
   // Open Graph 圖片：社群分享預覽圖，請確保圖片路徑正確且為絕對路徑，推薦 1200x630px。
   ogImage: 'https://vuefdseo.com/public/og-main-map.png', // **重要：替換為你首頁專屬的 OG 圖片！避免使用其他頁面的圖片**
   // Open Graph URL：社群分享時此頁面的標準 URL。
@@ -36,7 +36,7 @@ useSeoMeta({
   <div class="container mx-auto px-8 py-8 max-w-3xl">
     <section class="mb-12">
       <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-        Frontend Devops Learning
+        Frontend Devops Notes
       </h1>
       <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
         這是一個
