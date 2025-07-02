@@ -26,23 +26,23 @@ useSeoMeta({
         Vue 3 生命週期
       </h1>
       <p class="text-sm text-slate-500 mb-6">2025年7月2日</p>
-      <p class="text-gray-600 text-sm">
+      <p class="text-gray-600 text-md">
         學會對應 Composition API 的生命週期，有助於更穩定與清晰的元件開發。
       </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">生命週期 Hook 對應表</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">生命週期 Hook 對應表</h2>
       <div class="w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
-          <thead class="bg-gray-100 text-sm text-gray-700">
+          <thead class="bg-gray-100 text-md text-gray-700">
             <tr>
               <th class="py-2 px-4">階段</th>
               <th class="py-2 px-4">Options API</th>
               <th class="py-2 px-4">Composition API</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-200 text-sm">
             <tr>
               <td class="py-2 px-4">掛載前</td>
               <td class="py-2 px-4">beforeMount</td>
@@ -79,8 +79,8 @@ useSeoMeta({
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">常見問題與觀念</h2>
-      <ul class="list-disc ml-6 space-y-2 text-sm text-gray-700">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">常見問題與觀念</h2>
+      <ul class="list-disc ml-6 space-y-2 text-md text-gray-700">
         <li>
           <strong>onMounted 和 created 差異？</strong> created 執行時 DOM 尚未存在，onMounted
           執行時才可操作 DOM
@@ -101,26 +101,28 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">watch vs watchEffect 差異</h2>
-      <p class="text-sm text-gray-700 mb-3">兩者皆用於追蹤變數變化，但用途不同：</p>
-      <ul class="text-sm text-gray-700 list-disc ml-6 space-y-2">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">watch vs watchEffect 差異</h2>
+      <p class="text-md text-gray-700 mb-3">兩者皆用於追蹤變數變化，但用途不同：</p>
+      <ul class="text-md text-gray-700 list-disc ml-6 space-y-2">
         <li><code>watch</code>：需指定追蹤目標，支援新舊值</li>
         <li><code>watchEffect</code>：立即執行，會自動追蹤依賴變數</li>
       </ul>
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">ref vs reactive 差異</h2>
-      <p class="text-sm text-gray-700 mb-3">用於聲明響應式資料的兩種方式：</p>
-      <ul class="text-sm text-gray-700 list-disc ml-6 space-y-2">
+      <h2 class="text-xl md:text-2xl md:text-2xl font-bold text-gray-800 mb-4">
+        ref vs reactive 差異
+      </h2>
+      <p class="text-md text-gray-700 mb-3">用於聲明響應式資料的兩種方式：</p>
+      <ul class="text-md text-gray-700 list-disc ml-6 space-y-2">
         <li><code>ref</code>：適用於基本型別，透過 <code>.value</code> 存取</li>
         <li><code>reactive</code>：適用於物件型別，可直接操作屬性</li>
       </ul>
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">v-model 雙向綁定原理</h2>
-      <p class="text-sm text-gray-700 mb-3">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">v-model 雙向綁定原理</h2>
+      <p class="text-md text-gray-700 mb-3">
         Vue 3 中的 <code>v-model</code> 實際上會對應 <code>:modelValue</code> 與
         <code>@update:modelValue</code>。
       </p>
@@ -133,18 +135,18 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">v-model 修飾符（Modifiers）</h2>
-      <p class="text-sm text-gray-700 mb-3">Vue 提供三個實用修飾符來處理輸入值格式：</p>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">v-model 修飾符（Modifiers）</h2>
+      <p class="text-md text-gray-700 mb-3">Vue 提供三個實用修飾符來處理輸入值格式：</p>
       <div class="w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
-          <thead class="bg-gray-100 text-left">
+          <thead class="bg-gray-100 text-left text-md">
             <tr>
               <th class="px-4 py-2">修飾符</th>
               <th class="px-4 py-2">功能</th>
               <th class="px-4 py-2">使用情境</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-200 test-sm">
             <tr>
               <td class="px-4 py-2"><code>.trim</code></td>
               <td class="px-4 py-2">自動去除空白字元</td>
@@ -175,8 +177,8 @@ useSeoMeta({
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">補充：錯誤處理與狀態追蹤</h2>
-      <ul class="list-disc ml-6 space-y-2 text-sm text-gray-700">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">補充：錯誤處理與狀態追蹤</h2>
+      <ul class="list-disc ml-6 space-y-2 text-md text-gray-700">
         <li><code>onErrorCaptured</code>：類似 try/catch 的作用，用來集中錯誤處理</li>
         <li><code>watchEffect</code>：在 setup 中立即執行，用於追蹤 reactive 狀態</li>
       </ul>

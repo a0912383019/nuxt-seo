@@ -216,7 +216,7 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h3 class="text-xl md:text-xl font-bold text-gray-800 mb-3">
+      <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-3">
         <code>align-items</code> 與 <code>justify-content</code> 的區別
       </h3>
       <ul class="text-sm md:text-base list-disc ml-6 text-gray-700 space-y-2">

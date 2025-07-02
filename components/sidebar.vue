@@ -5,7 +5,7 @@ defineEmits(['close'])
 <template>
   <!-- 手機版 fixed sidebar -->
   <aside
-    class="fixed top-0 left-0 w-3/4 max-w-[250px] h-full bg-white z-150 shadow-lg p-4 transition-transform duration-300 md:hidden"
+    class="fixed top-0 left-0 w-4/5 max-w-[250px] h-full bg-white z-150 shadow-lg p-4 transition-transform duration-300 md:hidden"
     :class="{ '-translate-x-full': !isOpen }"
   >
     <!-- 關閉按鈕 -->

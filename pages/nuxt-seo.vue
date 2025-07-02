@@ -23,14 +23,14 @@ useSeoMeta({
         SEO 與 Nuxt：Vue 的搜尋引擎優化方案
       </h1>
       <p class="text-sm text-slate-500 mb-6">2025年7月1日</p>
-      <p class="text-gray-600 text-sm">
+      <p class="text-gray-600 text-md">
         Vue 本身是用 JavaScript 動態渲染的框架，不利 SEO。Nuxt 則透過支援 SSR、SSG 等模式，強化 SEO
         能力，使內容可被搜尋引擎抓取。
       </p>
     </section>
 
     <section class="mb-10">
-      <h2 class="text-2xl font-extrabold text-gray-900 mb-4">什麼是 SEO？</h2>
+      <h2 class="text-xl md:text-2xl font-extrabold text-gray-900 mb-4">什麼是 SEO？</h2>
       <p class="text-gray-700 text-base leading-relaxed">
         SEO 全名是 <strong>搜尋引擎優化（Search Engine Optimization）</strong>。 簡而言之，SEO
         的目標是透過優化你的網站，讓它在 Google、Bing 等搜尋引擎的
@@ -39,7 +39,7 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">為什麼 SEO 很重要？</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">為什麼 SEO 很重要？</h2>
       <ul class="list-disc ml-6 space-y-2 text-gray-700 text-sm md:text-base">
         <li>
           <strong>增加曝光和流量：</strong>
@@ -61,7 +61,7 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">舉個例子</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">舉個例子</h2>
       <p class="text-gray-700 text-sm md:text-base">
         想像一下：當使用者在 Google 上搜尋「Vue SEO 最佳實踐」時，<br />
         若你的網站剛好提供相關內容，且 SEO
@@ -70,10 +70,10 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">常見渲染模式比較</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">常見渲染模式比較</h2>
       <div class="w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200 text-sm">
-          <thead class="bg-gray-100 text-gray-700">
+          <thead class="bg-gray-100 text-gray-700 text-md">
             <tr>
               <th class="px-4 py-2 text-left">模式</th>
               <th class="px-4 py-2 text-left">特性</th>
@@ -81,7 +81,7 @@ useSeoMeta({
               <th class="px-4 py-2 text-left">常見使用情境</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-200 text-sm">
             <tr>
               <td class="px-4 py-2 font-medium">CSR (Client-Side Rendering)</td>
               <td class="px-4 py-2">全部由瀏覽器渲染，初始空白</td>
@@ -124,8 +124,8 @@ useSeoMeta({
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">如何讓 Vue 做到 SEO？</h2>
-      <ul class="list-disc ml-6 space-y-2 text-sm text-gray-700">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">如何讓 Vue 做到 SEO？</h2>
+      <ul class="list-disc ml-6 space-y-2 text-md text-gray-700">
         <li>使用 Nuxt 開啟 SSR 或選擇 SSG 模式</li>
         <li>善用 <code>useSeoMeta()</code> 設定 meta 標籤</li>
         <li>使用 <code>useHead()</code> 或 <code>useSeoMeta()</code> 管理 title、description</li>
@@ -135,8 +135,8 @@ useSeoMeta({
     </section>
 
     <section class="mb-10">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">業界趨勢與建議</h2>
-      <ul class="list-disc ml-6 space-y-2 text-sm text-gray-700">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">業界趨勢與建議</h2>
+      <ul class="list-disc ml-6 space-y-2 text-md text-gray-700">
         <li>企業級網站：選擇 SSR 或 PPR，確保 SEO 與效能</li>
         <li>內容導向網站：選擇 SSG 或 ISR，降低伺服器負載</li>
         <li>互動性高或登入後頁面：使用 CSR 或混合渲染</li>

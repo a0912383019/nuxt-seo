@@ -37,7 +37,7 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h3 class="text-xl font-bold text-gray-800 mb-3">範例：泛型函式</h3>
+      <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-3">範例：泛型函式</h3>
       <pre class="bg-gray-100 rounded-md p-4 text-sm overflow-x-auto"><code class="language-ts">
 function identity&lt;T&gt;(value: T): T {
   return value;
@@ -48,7 +48,7 @@ const result = identity&lt;number&gt;(123);
     </section>
 
     <section class="mb-12">
-      <h3 class="text-xl font-bold text-gray-800 mb-3">範例：泛型約束與 keyof</h3>
+      <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-3">範例：泛型約束與 keyof</h3>
       <pre class="bg-gray-100 rounded-md p-4 text-sm overflow-x-auto"><code class="language-ts">
 function getProperty&lt;T, K extends keyof T&gt;(obj: T, key: K): T[K] {
   return obj[key];
@@ -60,7 +60,7 @@ const userName = getProperty(user, "name");
     </section>
 
     <section class="mb-12">
-      <h3 class="text-xl font-bold text-gray-800 mb-3">常見工具型別</h3>
+      <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-3">常見工具型別</h3>
       <pre class="bg-gray-100 rounded-md p-4 text-sm overflow-x-auto">
 <code class="language-ts">
 type User = {
@@ -80,7 +80,7 @@ type UserRecord = <span class="text-blue-600">Record</span>&lt;"a" | "b", string
     </section>
 
     <section class="mb-12">
-      <h3 class="text-xl font-bold text-gray-800 mb-3">條件型別與 infer 推斷</h3>
+      <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-3">條件型別與 infer 推斷</h3>
       <pre class="bg-gray-100 rounded-md p-4 text-sm overflow-x-auto"><code class="language-ts">
 type GetReturnType&lt;T&gt; = T extends (...args: any[]) =&gt; infer R ? R : never;
 
@@ -90,7 +90,7 @@ type Bar = GetReturnType&lt;Foo&gt;; // number
     </section>
 
     <section class="mb-12">
-      <h3 class="text-xl font-bold text-gray-800 mb-3">新手常見錯誤與觀念混淆</h3>
+      <h3 class="text-lg md:text-xl font-bold text-gray-800 mb-3">新手常見錯誤與觀念混淆</h3>
       <ul class="text-sm md:text-base list-disc ml-6 text-gray-700 space-y-2">
         <li>混用 <code>any</code> 導致型別保護失效</li>
         <li>誤以為泛型一定要寫成 <code>&lt;T&gt;</code>，其實可以是任何有意義的名稱</li>

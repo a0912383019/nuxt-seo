@@ -24,7 +24,7 @@ useSeoMeta({
         Vuex vs Pinia：差異與概念釐清
       </h1>
       <p class="text-sm text-slate-500 mb-6">2025年7月2日</p>
-      <p class="text-sm text-gray-700">
+      <p class="text-md text-gray-700">
         Vuex 是 Vue 2 的官方狀態管理方案，Pinia 則是 Vue 團隊在 Vue 3
         中推薦的新方案，具有更輕量、TypeScript 支援佳等優勢。
       </p>
@@ -32,17 +32,17 @@ useSeoMeta({
 
     <!-- 比較表 -->
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">核心差異比較</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">核心差異比較</h2>
       <div class="w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
-          <thead class="bg-gray-100">
+          <thead class="bg-gray-100 text-md">
             <tr>
               <th class="px-4 py-2">項目</th>
               <th class="px-4 py-2">Vuex</th>
               <th class="px-4 py-2">Pinia</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-200 text-sm">
             <tr>
               <td class="px-4 py-2">模組化</td>
               <td class="px-4 py-2">需手動拆分 modules</td>
@@ -75,8 +75,8 @@ useSeoMeta({
 
     <!-- 概念釐清 -->
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">常見觀念釐清</h2>
-      <ul class="list-disc text-sm text-gray-700 ml-6 space-y-2">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">常見觀念釐清</h2>
+      <ul class="list-disc text-md text-gray-700 ml-6 space-y-2">
         <li>
           <strong>Vuex 是 Flux 架構：</strong> 需要透過 <code>commit</code>、<code>dispatch</code>
           操作，較為繁瑣
@@ -94,7 +94,7 @@ useSeoMeta({
 
     <!-- Pinia 範例 -->
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">簡易 Pinia 實作範例</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">簡易 Pinia 實作範例</h2>
       <pre class="bg-gray-100 rounded-md p-4 text-sm overflow-x-auto"><code class="language-ts">
 // stores/counter.ts
 import { defineStore } from 'pinia'
@@ -128,8 +128,8 @@ const counter = useCounterStore()
 
     <!-- 適合誰用哪個？ -->
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-4">何時該選用 Pinia？</h2>
-      <ul class="list-disc text-sm text-gray-700 ml-6 space-y-2">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">何時該選用 Pinia？</h2>
+      <ul class="list-disc text-md text-gray-700 ml-6 space-y-2">
         <li>正在使用 Vue 3，建議選用 Pinia（官方推薦）</li>
         <li>需要較佳的 TypeScript 開發體驗</li>
         <li>希望結合 Composition API 管理邏輯</li>

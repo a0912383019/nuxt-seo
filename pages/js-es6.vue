@@ -43,7 +43,7 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">ES5 vs ES6+</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">ES5 vs ES6+</h2>
       <div class="w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
           <thead class="bg-gray-100">
@@ -103,10 +103,10 @@ useSeoMeta({
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">var / let / const 比較</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">var / let / const 比較</h2>
       <div class="mb-6 w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
-          <thead class="bg-gray-100 text-gray-600">
+          <thead class="bg-gray-100 text-gray-600 text-md">
             <tr>
               <th class="p-3 text-left">項目</th>
               <th class="p-3 text-left">var</th>
@@ -114,7 +114,7 @@ useSeoMeta({
               <th class="p-3 text-left">const</th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-200 text-sm">
             <tr>
               <td class="p-3">作用域</td>
               <td class="p-3">函式作用域</td>
@@ -143,48 +143,52 @@ useSeoMeta({
         </table>
       </div>
 
-      <span
-        >tdz 是指在變數宣告之前，變數不能被存取的區域。 如果嘗試在 tdz 範圍內存取變量，會拋出
-        ReferenceError 錯誤。</span
-      >
+      <span class="text-md">
+        tdz 是指在變數宣告之前，變數不能被存取的區域。 如果嘗試在 tdz 範圍內存取變量，會拋出
+        ReferenceError 錯誤。
+      </span>
     </section>
 
     <section class="mb-12">
-      <h2 class="text-2xl font-bold text-gray-900 mb-6">
+      <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-6">
         為什麼不要用 <code class="text-red-600">var</code>？
       </h2>
 
-      <h3 class="text-xl font-semibold text-gray-800 mb-3">1. 沒有區塊作用域（block scope）</h3>
-      <p class="text-sm text-gray-700 mb-2">
+      <h3 class="text-lg md:text-xl font-semibold text-gray-800 mb-3">
+        1. 沒有區塊作用域（block scope）
+      </h3>
+      <p class="text-md text-gray-700 mb-2">
         使用 <code>var</code> 宣告的變數不會限制在區塊範圍內，容易造成變數污染：
       </p>
-      <pre class="bg-gray-100 rounded p-3 text-sm overflow-auto"><code>if (true) {
+      <pre class="bg-gray-100 rounded p-3 text-md overflow-auto"><code>if (true) {
   var name = "Lan";
 }
 console.log(name); // "Lan"</code></pre>
 
-      <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">2. 存在「變數提升」（Hoisting）</h3>
-      <p class="text-sm text-gray-700 mb-2">
+      <h3 class="text-lg md:text-xl font-semibold text-gray-800 mt-6 mb-3">
+        2. 存在「變數提升」（Hoisting）
+      </h3>
+      <p class="text-md text-gray-700 mb-2">
         變數會被提升至作用域頂端，但不包含賦值，容易誤會為可用：
       </p>
       <pre
-        class="bg-gray-100 rounded p-3 text-sm overflow-auto"
+        class="bg-gray-100 rounded p-3 text-md overflow-auto"
       ><code>console.log(score); // undefined
 var score = 100;</code></pre>
 
-      <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3 flex">
+      <h3 class="text-lg md:text-xl font-semibold text-gray-800 mt-6 mb-3 flex">
         <Icon name="fe:check" class="text-green-500 text-3xl" />
         改用&nbsp<code>let</code> &nbsp/&nbsp <code>const</code>&nbsp的好處
       </h3>
       <div class="mb-6 w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
-          <thead class="bg-gray-50 text-gray-600 font-semibold">
+          <thead class="bg-gray-50 text-gray-600 font-semibold text-md">
             <tr>
               <th class="px-4 py-2">關鍵字</th>
               <th class="px-4 py-2">特性</th>
             </tr>
           </thead>
-          <tbody class="bg-white divide-y divide-gray-200">
+          <tbody class="bg-white divide-y divide-gray-200 text-sm">
             <tr>
               <td class="px-4 py-2 font-medium">let</td>
               <td class="px-4 py-2">有區塊作用域、無提升、可重新賦值</td>
@@ -204,25 +208,25 @@ var score = 100;</code></pre>
 
 console.log(username); // ReferenceError</code></pre>
 
-      <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">
+      <h3 class="text-lg md:text-xl font-semibold text-gray-800 mt-6 mb-3">
         補充：那為什麼有時還是看到 <code>var</code>？
       </h3>
-      <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1">
+      <ul class="list-disc ml-6 text-md text-gray-700 space-y-1">
         <li>出現在舊教學或歷史專案中</li>
         <li>舊瀏覽器或不支援 ES6 的執行環境</li>
         <li>開發者個人習慣（不建議）</li>
       </ul>
 
-      <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">實戰建議</h3>
+      <h3 class="text-lg md:text-xl font-semibold text-gray-800 mt-6 mb-3">實戰建議</h3>
       <div class="mb-6 w-full overflow-x-auto bg-white rounded-lg shadow-sm sm:rounded-lg">
         <table class="min-w-[640px] w-full divide-y divide-gray-200">
-          <thead class="bg-gray-50 text-gray-600 font-semibold">
+          <thead class="bg-gray-50 text-gray-600 font-semibold text-md">
             <tr>
               <th class="px-4 py-2">使用情境</th>
               <th class="px-4 py-2">建議關鍵字</th>
             </tr>
           </thead>
-          <tbody class="bg-white divide-y divide-gray-200">
+          <tbody class="bg-white divide-y divide-gray-200 text-sm">
             <tr>
               <td class="px-4 py-2">可變資料</td>
               <td class="px-4 py-2 font-medium">let</td>
@@ -241,7 +245,7 @@ console.log(username); // ReferenceError</code></pre>
     </section>
 
     <section class="mb-12">
-      <h2 class="text-xl font-bold text-gray-800 mb-3">常見設計模式範例</h2>
+      <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-3">常見設計模式範例</h2>
       <h3 class="text-lg font-semibold mb-2 flex">
         <Icon name="fe:check" class="text-green-500 text-3xl" />&nbsp單例模式（Singleton Pattern）
       </h3>
@@ -263,7 +267,7 @@ const a = Singleton.getInstance()
 const b = Singleton.getInstance()
 console.log(a === b) // true</code></pre>
 
-      <h3 class="text-lg font-semibold mb-2 mt-6 flex">
+      <h3 class="text-lg md:text-xl font-semibold mb-2 mt-6 flex">
         <Icon name="fe:check" class="text-green-500 text-3xl" />&nbsp工廠模式（Factory Pattern）
       </h3>
       <pre
@@ -276,7 +280,7 @@ console.log(a === b) // true</code></pre>
 const admin = createUser('admin')
 const user = createUser('user')</code></pre>
 
-      <h3 class="text-lg font-semibold mb-2 mt-6 flex">
+      <h3 class="text-lg md:text-xl font-semibold mb-2 mt-6 flex">
         <Icon name="fe:check" class="text-green-500 text-3xl" />&nbsp觀察者模式（Observer Pattern）
       </h3>
       <pre
