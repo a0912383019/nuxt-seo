@@ -22,7 +22,10 @@ useSeoMeta({
     <Breadcrumbs to="/ts" label="TypeScript 的泛型與條件型別應用" />
 
     <section class="mb-12 mt-5">
-      <h1 class="text-2xl font-bold text-gray-800 mb-4">TypeScript 泛型與條件型別</h1>
+      <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
+        TypeScript 泛型與條件型別
+      </h1>
+      <p class="text-sm text-slate-500 mb-6">2025年7月2日</p>
       <ul class="text-sm md:text-base list-disc ml-6 text-gray-700 space-y-2">
         <li>使用 <code>&lt;T&gt;</code> 建立可重複使用的函式與型別</li>
         <li>配合 <code>extends</code> 限定型別範圍</li>

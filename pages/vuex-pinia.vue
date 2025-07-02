@@ -19,8 +19,11 @@ useSeoMeta({
     <Breadcrumbs to="/vuex-pinia" label="Vuex 與 Pinia 差異比較" />
 
     <!-- 標題 -->
-    <section class="mb-12 mt-5">
-      <h1 class="text-2xl font-bold text-gray-800 mb-4">Vuex vs Pinia：差異與概念釐清</h1>
+    <section class="mb-10 mt-5">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
+        Vuex vs Pinia：差異與概念釐清
+      </h1>
+      <p class="text-sm text-slate-500 mb-6">2025年7月2日</p>
       <p class="text-sm text-gray-700">
         Vuex 是 Vue 2 的官方狀態管理方案，Pinia 則是 Vue 團隊在 Vue 3
         中推薦的新方案，具有更輕量、TypeScript 支援佳等優勢。

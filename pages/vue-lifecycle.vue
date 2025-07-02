@@ -21,8 +21,11 @@ useSeoMeta({
   <div class="container mx-auto px-8 py-8 max-w-3xl">
     <Breadcrumbs to="/vue-lifecycle" label="Vue 3 生命週期" />
 
-    <section class="mb-12 mt-5">
-      <h1 class="text-3xl font-extrabold text-gray-900 mb-4">Vue 3 生命週期</h1>
+    <section class="mb-10 mt-5">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
+        Vue 3 生命週期
+      </h1>
+      <p class="text-sm text-slate-500 mb-6">2025年7月2日</p>
       <p class="text-gray-600 text-sm">
         學會對應 Composition API 的生命週期，有助於更穩定與清晰的元件開發。
       </p>

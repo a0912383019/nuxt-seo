@@ -18,10 +18,11 @@ useSeoMeta({
   <div class="container mx-auto px-8 py-8 max-w-3xl">
     <Breadcrumbs to="/nuxt-seo" label="SEO 與 Nuxt" />
 
-    <section class="mb-12 mt-5">
-      <h1 class="text-3xl font-extrabold text-gray-900 mb-4">
+    <section class="mb-10 mt-5">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
         SEO 與 Nuxt：Vue 的搜尋引擎優化方案
       </h1>
+      <p class="text-sm text-slate-500 mb-6">2025年7月1日</p>
       <p class="text-gray-600 text-sm">
         Vue 本身是用 JavaScript 動態渲染的框架，不利 SEO。Nuxt 則透過支援 SSR、SSG 等模式，強化 SEO
         能力，使內容可被搜尋引擎抓取。
