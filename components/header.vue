@@ -21,7 +21,7 @@
       </button>
       <!-- Logo -->
       <NuxtLink to="/">
-        <img src="/og-html-semantic.png" alt="" class="releative left-0 w-20">
+        <img src="/fd-logo.png" alt="" class="releative left-0 w-12">
       </NuxtLink>
     </div>
   </header>

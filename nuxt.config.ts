@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:title', content: 'Frontend Starter Map' },
         { property: 'og:description', content: '提供給前端概念強化學習指南' },
-        { property: 'og:image', content: '/og-image.png' }
+        { property: 'og:image', content: '/og-html-semantic.png' }
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }

@@ -4,12 +4,12 @@ useSeoMeta({
   description: '學習 ES6+ 語法改寫技巧與常見設計模式應用，強化 JavaScript 現代開發能力。',
   ogTitle: 'ES6+ 語法與設計模式',
   ogDescription: '快速掌握 let、箭頭函式、模組化與 async/await 等現代 JS 技巧。',
-  ogImage: 'https://vuefdseo.com/public/og-js-es6.png',
-  ogUrl: 'https://vuefdseo.com/js-es6',
+  ogImage: 'https://vuefdseo.com/og-html-semantic.png',
+  ogUrl: 'https://vuefdseo.com/vuex-pinia',
   twitterCard: 'summary_large_image',
   twitterTitle: 'ES6+ 語法與設計模式',
   twitterDescription: '快速掌握 let、箭頭函式、模組化與 async/await 等現代 JS 技巧。',
-  twitterImage: 'https://vuefdseo.com/public/og-js-es6.png',
+  twitterImage: 'https://vuefdseo.com/og-html-semantic.png',
   keywords:
     'ES6, JavaScript 語法, TypeScript 泛型, 條件型別, JavaScript 設計模式, let const, arrow function, async await, 型別推論, Partial, Pick, Omit, Record'
 })

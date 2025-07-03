@@ -12,7 +12,7 @@ useSeoMeta({
   ogDescription:
     '掌握 Semantic HTML 標籤（如 header, main, section）與 a11y 實務，包含 ARIA 屬性、alt 文字、鍵盤導航等，讓你的網站更具包容性。',
   // Open Graph 圖片：社群分享時顯示的預覽圖，請確保圖片存在且路徑正確
-  ogImage: 'https://vuefdseo.com/public/og-html-semantic.png', // **建議使用絕對路徑，並確保圖片是 1.91:1 比例，例如 1200x630**
+  ogImage: 'https://vuefdseo.com/og-html-semantic.png', // **建議使用絕對路徑，並確保圖片是 1.91:1 比例，例如 1200x630**
   // Open Graph URL：社群分享時的網頁連結，請替換為此頁面的實際 URL
   ogUrl: 'https://vuefdseo.com/html-tag', // **重要：替換成你網站這個頁面的實際 URL**
 
@@ -24,7 +24,7 @@ useSeoMeta({
   twitterDescription:
     '詳細解析 HTML 語意化標籤的應用場景，並提供無障礙設計（a11y）的基礎知識與常見錯誤修正，助你打造高品質網頁。',
   // Twitter 圖片：同 ogImage
-  twitterImage: 'https://vuefdseo.com/public/og-html-semantic.png', // **同上，建議使用絕對路徑**
+  twitterImage: 'https://vuefdseo.com/og-html-semantic.png', // **同上，建議使用絕對路徑**
 
   // 關鍵字：幫助搜尋引擎理解頁面主題，但不直接影響排名，應自然包含於內容中
   keywords:

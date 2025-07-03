@@ -13,7 +13,7 @@ useSeoMeta({
   ogDescription:
     '快速掌握 ES6+ 的核心特性與優勢，並透過實例學習單例、工廠、觀察者模式，打造更優雅、可維護的 JavaScript 程式碼。',
   // Open Graph 圖片：社群分享時顯示的預覽圖，請確保圖片存在且路徑正確且為絕對路徑。推薦 1.91:1 比例，例如 1200x630px。
-  ogImage: 'https://vuefdseo.com/public/og-js-es6.png', // **重要：請替換為你的圖片的絕對路徑**
+  ogImage: 'https://vuefdseo.com/og-html-semantic.png', // **重要：請替換為你的圖片的絕對路徑**
   // Open Graph URL：社群分享時此頁面的標準 URL。
   ogUrl: 'https://vuefdseo.com/js-es6', // **重要：替換成你網站這個頁面的實際 URL**
 
@@ -25,7 +25,7 @@ useSeoMeta({
   twitterDescription:
     '從 let/const 到箭頭函式，再到常見的設計模式，全面提升你的 JavaScript 編碼技巧與程式碼組織能力。',
   // Twitter 圖片：同 ogImage。
-  twitterImage: 'https://vuefdseo.com/public/og-js-es6.png', // **同上，替換為你的圖片的絕對路徑**
+  twitterImage: 'https://vuefdseo.com/og-html-semantic.png', // **同上，替換為你的圖片的絕對路徑**
 
   // 關鍵字：幫助搜尋引擎理解頁面主題，但不直接影響排名，應自然包含於內容中。
   keywords:

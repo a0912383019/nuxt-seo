@@ -13,7 +13,7 @@ useSeoMeta({
   ogDescription:
     '探索前端開發的關鍵概念與最佳實踐！涵蓋 RWD、SEO、Vue 3、Nuxt、TypeScript 等主題，提供清晰筆記經驗分享。',
   // Open Graph 圖片：社群分享預覽圖，請確保圖片路徑正確且為絕對路徑，推薦 1200x630px。
-  ogImage: 'https://vuefdseo.com/public/og-main-map.png', // **重要：替換為你首頁專屬的 OG 圖片！避免使用其他頁面的圖片**
+  ogImage: 'https://vuefdseo.com/og-html-semantic.png', // **重要：替換為你首頁專屬的 OG 圖片！避免使用其他頁面的圖片**
   // Open Graph URL：社群分享時此頁面的標準 URL。
   ogUrl: 'https://vuefdseo.com/', // **重要：替換成你網站的首頁 URL**
 
@@ -25,7 +25,7 @@ useSeoMeta({
   twitterDescription:
     '一個集結前端核心概念、RWD、SEO 實踐與問題解決經驗的學習平台，助你系統化提升前端技能。',
   // Twitter 圖片：同 ogImage。
-  twitterImage: 'https://vuefdseo.com/public/og-main-map.png', // **同上，替換為首頁專屬圖片**
+  twitterImage: 'https://vuefdseo.com/og-html-semantic.png', // **同上，替換為首頁專屬圖片**
 
   // 關鍵字：幫助搜尋引擎理解頁面主題，但不直接影響排名，應自然包含於內容中。
   keywords:
