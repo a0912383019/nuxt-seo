@@ -29,14 +29,14 @@ useSeoMeta({
 
   // 關鍵字：幫助搜尋引擎理解頁面主題，但不直接影響排名，應自然包含於內容中。
   keywords:
-    '前端學習, 前端資源, 前端開發, Vue 3, Nuxt, TypeScript, HTML 語意化, CSS Grid, Flexbox, RWD, 響應式設計, SEO 優化, JavaScript, 自我學習'
+    'YU 的前端, YU的前端, Yu 的前端, Yu的前端 ,前端學習, 前端資源, 前端開發, Vue 3, Nuxt, TypeScript, HTML 語意化, CSS Grid, Flexbox, RWD, 響應式設計, SEO 優化, JavaScript, 自我學習'
 })
 </script>
 <template>
   <div class="container mx-auto px-8 py-8 max-w-3xl">
     <section class="mb-12">
       <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-        Frontend Devops Notes
+        YU 的前端學習筆記
       </h1>
       <p class="text-lg md:text-xl text-gray-700 mb-4 leading-relaxed">
         這是一個

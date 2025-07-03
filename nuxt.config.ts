@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Frontend Developer Map',
+      title: "Frontend Developer Map",
       meta: [
-        { name: 'description', content: '前端學習筆記' },
+        { name: 'description', content: 'YU 的前端學習筆記' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:title', content: 'Frontend Starter Map' },
         { property: 'og:description', content: '提供給前端概念強化學習指南' },
