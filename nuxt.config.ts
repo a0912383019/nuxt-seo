@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Frontend Developer Map",
+      title: 'Frontend Developer Map',
       meta: [
         { name: 'description', content: 'YU 的前端學習筆記' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         { property: 'og:description', content: '提供給前端概念強化學習指南' },
         { property: 'og:image', content: '/og-image.png' }
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/og-html-semantic.png' }]
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
   },
   site: {
