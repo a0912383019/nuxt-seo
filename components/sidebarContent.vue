@@ -12,7 +12,7 @@ const isActiveLink = (path: string) => {
   <nav class="flex flex-col gap-4 mt-8 text-sm md:text-base">
     <div class="flex items-center border-l-4 border-orange-500 pl-4 py-2">
       <Icon name="uil:home" class="text-orange-500 text-xl mr-2" />
-      <NuxtLink to="/" class="font-bold text-lg !text-orange-600">前端工程師學習筆記</NuxtLink>
+      <NuxtLink to="/" class="font-bold text-lg !text-orange-600">YU 的前端學習筆記</NuxtLink>
     </div>
 
     <div>
